@@ -1,10 +1,8 @@
 import React from 'react';
 import './Box.scss';
-const box = () => {
+const box = (props) => {
     return (
-        <div className='box'>
-            
-        </div>
+        <div className='box' style={{backgroundColor : `${props.color}`}}></div>
     )
 }
 export default box;

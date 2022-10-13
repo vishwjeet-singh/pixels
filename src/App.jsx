@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import Box from './Components/Box/Box'
+import FullContainer from './Container/FullContainer/FullContainer'
 function App() {
 
   return (
     <div className="App">
-      <Box />
+      <FullContainer />
     </div>
   )
 }
