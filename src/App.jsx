@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-
+import Box from './Components/Box/Box'
 function App() {
 
   return (
     <div className="App">
-      I am from react app
+      <Box />
     </div>
   )
 }
