@@ -7,8 +7,6 @@ import { toast } from "react-toastify";
 const fullContainer = () => {
   //STATE
   const [allcolors, setAllcolors] = useState([]);
-  console.log("rendering");
-
   // console.log(allcolors, "allcolors");
   //EFFECTS
 
